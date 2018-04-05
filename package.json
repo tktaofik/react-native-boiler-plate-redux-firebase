@@ -1,0 +1,55 @@
+{
+  "name": "central-gas",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-import": "^0.13.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-watch": "^3.1.3",
+    "jest-expo": "25.0.0",
+    "react-native-debugger-open": "^0.3.17",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "postinstall": "rndebugger-open --expo",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lint-fix": "./node_modules/.bin/eslint ./ --fix",
+    "lint-watch": "esw --watch ./"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-to-json": "^3.3.3",
+    "expo": "^25.0.0",
+    "firebase": "^4.12.0",
+    "mobx": "^4.1.0",
+    "mobx-react": "^5.0.0",
+    "mobx-state-tree": "^2.0.1",
+    "mst-middlewares": "^2.0.1",
+    "native-base": "^2.3.10",
+    "react": "^16.2.0",
+    "react-native": "0.52.0",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "remotedev": "^0.2.7"
+  }
+}
