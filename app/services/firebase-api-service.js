@@ -1,12 +1,13 @@
 import * as firebase from 'firebase';
 
+/* Fill in your firebase config to start*/
 const config = {
-  apiKey: 'AIzaSyDaJWAwoY5vaP-xqSQbN8pH5zr25PEX6Pg',
-  authDomain: 'central-gas.firebaseapp.com',
-  databaseURL: 'https://central-gas.firebaseio.com',
-  projectId: 'central-gas',
-  storageBucket: 'central-gas.appspot.com',
-  messagingSenderId: '1071538046772',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
 };
 
 firebase.initializeApp(config);

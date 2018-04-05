@@ -1,9 +1,10 @@
-# React Native Boiler Plate Using Mobx State Tree
+# React Native Boiler Plate Using Redux & Firebase
 Based on [create-react-native-app](https://github.com/react-community/create-react-native-app)
 
 ## Content
 - React Navigation
-- Mobx State Tree 
+- Redux 
+- Firebase 
 - eslint airbnb
 - eslint-watch
 - jest
