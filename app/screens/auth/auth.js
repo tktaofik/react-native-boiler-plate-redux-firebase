@@ -58,7 +58,7 @@ class AuthScreen extends React.Component {
   }
 }
 
-const mapDispatchToProps = dispatch => actionCreators(dispatch);
+const mapDispatchToProps = () => actionCreators;
 const mapStateToProps = state => ({
   store: {
     auth: state.auth,
